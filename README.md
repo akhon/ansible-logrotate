@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/nickhammond/ansible-logrotate.svg?branch=master)](https://travis-ci.org/nickhammond/ansible-logrotate)
+# Ansible Role: Logrotate
+
+[![Circle CI](
+https://circleci.com/gh/verygood-ops/ansible-logrotate.svg?style=svg&circle-token=dc9da74b78174a84725ba2116eaff8c8e96ff6ff
+)](https://circleci.com/gh/verygood-ops/ansible-logrotate)
 
 Role Name
 ========

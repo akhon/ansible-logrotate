@@ -1,0 +1,18 @@
+---
+
+- hosts: test_runners
+  become: yes
+  vars:
+    logrotate_scripts:
+      - name: logrotate-test
+        path: "/some/test/logrotate/path/*/*.log"
+        options:
+          - daily
+          - rotate 7
+          - compress
+          - missingok
+          - notifempty
+          - copytruncate
+
+  roles:
+    - { role: ansible-logrotate }
